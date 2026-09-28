@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "forwarded-parse"
-version = "0.1.0"
+version = "0.1.1"
 description = "Zero-dependency RFC 7239 HTTP Forwarded header parser, serializer, and normalizer"
 readme = "README.md"
 license = {text = "MIT"}

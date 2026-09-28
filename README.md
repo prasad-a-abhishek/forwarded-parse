@@ -1,6 +1,6 @@
 # forwarded-parse
 
-[![PyPI version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/prasad-a-abhishek/forwarded-parse)
+[![PyPI version](https://img.shields.io/badge/version-0.1.1-blue.svg)](https://github.com/prasad-a-abhishek/forwarded-parse)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#dependencies)
@@ -186,7 +186,7 @@ except ForwardedParseError as exc:
 pip install git+https://github.com/prasad-a-abhishek/forwarded-parse.git
 ```
 
-(No PyPI release at v0.1.0 — install from the git repo. The first PyPI
+(No PyPI release at v0.1.1 — install from the git repo. The first PyPI
 release will be tagged from this commit.)
 
 For local development:
