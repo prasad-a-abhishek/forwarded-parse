@@ -1,5 +1,8 @@
 # forwarded-parse QA Report — cycle_136/qa2 (v0.1.0 → v0.1.1)
 
+tests_passing: true
+tests_total: 347
+
 Date: 2026-09-28
 Worktree: `/root/projects/forwarded-parse/.worktrees/t_4a927ae3` (branch `wt/cycle136-qa2-detach`)
 HEAD: `c1382b3` (master after FF-merge of fix1)
