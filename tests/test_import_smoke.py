@@ -32,7 +32,7 @@ def test_version_string_present() -> None:
 
     assert hasattr(forwarded_parse, "__version__")
     assert isinstance(forwarded_parse.__version__, str)
-    assert forwarded_parse.__version__ == "0.1.0"
+    assert forwarded_parse.__version__ == "0.1.1"
 
 
 def test_py_typed_marker_present() -> None:

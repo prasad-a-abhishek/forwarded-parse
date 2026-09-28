@@ -33,7 +33,7 @@ __all__ = [
     "parse",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 # Canonical key order within an element (matches RFC 7239 §7 examples).

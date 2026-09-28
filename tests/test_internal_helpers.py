@@ -257,8 +257,11 @@ def test_parse_element_empty_returns_none() -> None:
 
 
 def test_parse_element_only_unknown_keys() -> None:
-    elem = _parse_element("foo=bar;baz=qux")
-    assert elem == {"for_": [], "by": None, "host": None, "proto": None}
+    # F-001 fix: an element whose pairs are all unknown extension keys
+    # (RFC 7239 §4) must be dropped by the parser, not retained as a
+    # phantom dict with for_=[] and all scalars None. ``_parse_element``
+    # returns ``None`` so the outer ``parse_forwarded`` loop filters it.
+    assert _parse_element("foo=bar;baz=qux") is None
 
 
 # ---------------------------------------------------------------------------

@@ -336,6 +336,20 @@ def _parse_element(raw: str) -> _ElementDict | None:
             out["for_"].append(value)
         else:
             out[name] = value
+    # If every pair was either invalid or an unknown extension key (per
+    # RFC 7239 §4 the parser silently ignores unknown names), the element
+    # carries no recognised data. Mirror ``_parse_pair()``'s ``None``
+    # convention so the outer loop drops it. Without this guard, all-
+    # unknown inputs produce a phantom ``ForwardedElement`` whose
+    # ``format()`` is ``''`` and which violates round-trip idempotence
+    # (``format(parse(format(parse(h)))) != format(parse(h))``).
+    if (
+        not out["for_"]
+        and out["by"] is None
+        and out["host"] is None
+        and out["proto"] is None
+    ):
+        return None
     return out
 
 
