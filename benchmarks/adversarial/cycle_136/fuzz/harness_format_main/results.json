@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "--iters",
+    "100"
+  ],
+  "crashes": [],
+  "elapsed_seconds": 0.039943,
+  "ended_utc": "2026-09-28T00:55:22Z",
+  "exit_code": 0,
+  "harness_self_error": null,
+  "iters_clean": 100,
+  "iters_requested": 100,
+  "oracle_mismatches": [],
+  "python": "3.11.15",
+  "seed": 54324593520803841,
+  "started_utc": "2026-09-28T00:55:22Z",
+  "surface": "harness_format_main",
+  "verdict": "CLEAN"
+}
