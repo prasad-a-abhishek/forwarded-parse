@@ -1,0 +1,17 @@
+{
+ "crash_samples": [],
+ "crashes": 0,
+ "duration_s": 0.286704,
+ "exit_code": 0,
+ "hangs": 0,
+ "harness_self_error": null,
+ "iters": 250000,
+ "iters_clean": 250000,
+ "iters_requested": 250000,
+ "mismatch_samples": [],
+ "oom": 0,
+ "oracle_mismatches": 0,
+ "surface": "harness_type_errors",
+ "verdict": "CLEAN",
+ "wall_seconds": 0.315
+}

@@ -1,19 +1,4072 @@
 {
   "argv": [
     "--iters",
-    "100"
+    "250000",
+    "--seed",
+    "54324593520803843"
   ],
   "crashes": [],
-  "elapsed_seconds": 0.03977,
-  "ended_utc": "2026-09-28T00:55:22Z",
-  "exit_code": 0,
+  "elapsed_seconds": 125.069175,
+  "ended_utc": "2026-09-28T00:58:57Z",
+  "exit_code": 1,
   "harness_self_error": null,
-  "iters_clean": 100,
-  "iters_requested": 100,
-  "oracle_mismatches": [],
+  "iters_clean": 249190,
+  "iters_requested": 250000,
+  "oracle_mismatches": [
+    {
+      "iter": 130,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 145,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 385,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 435,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1005,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1070,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1280,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1395,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1410,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1815,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1980,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 1990,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 2040,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 2300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 2910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 2955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 2970,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 3840,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 4485,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 4805,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 5315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 5820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 6095,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 6170,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 6755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 6860,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 7020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 7330,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 7380,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 7955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 8020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 8455,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 8965,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 9180,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 10060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 10285,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 10370,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 10620,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 10820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 10835,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 11260,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 11440,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 11500,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 12265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 12275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 12845,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 13305,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 13510,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 13725,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 13730,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 15125,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 15155,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 15290,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 15320,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 15430,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 15570,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 16155,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 16670,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 16785,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 17250,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 17275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 17310,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 17380,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 17760,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 18010,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 18150,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 18165,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 18330,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 19385,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 19460,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 19640,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 19655,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 20660,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 20680,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 20830,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 20835,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 21155,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 21245,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 21845,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 22635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 23755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 23885,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 24580,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 24605,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 25925,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 25960,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 26250,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 26470,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 27885,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 28230,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 28580,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 30170,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 30185,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 30255,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 30540,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 30635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 30690,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 31475,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 31805,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 31865,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 32835,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 34040,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 34200,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 34405,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 34550,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 34970,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 35310,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 35330,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 36170,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 36600,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 36765,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 36980,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 37135,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 37185,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 37530,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 37625,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 38060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 38255,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 38315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 38630,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 39095,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 39155,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 39665,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 39755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 39780,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 40020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 40060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 40095,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 40590,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 40740,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 41425,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 41450,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 41520,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 41725,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 41760,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 42115,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 42520,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 42695,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 44010,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 44205,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 44470,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 44990,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 45010,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 45530,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 45815,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 46065,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 46400,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 46530,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 46545,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 47110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 47605,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 47890,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 48235,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 48690,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 48725,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 49265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 49290,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 49760,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 51015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 51225,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 51650,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 51725,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 51850,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 51970,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 52025,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 52065,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 52075,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 52355,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 52455,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53010,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53210,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53225,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53410,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53470,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53670,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53805,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 53880,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 54085,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 54110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 54300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 54495,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 54675,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 55135,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 55275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 55335,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 55695,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 56325,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 56535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 56755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 57395,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 57555,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 57625,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 58115,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 58230,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 58780,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 59180,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 59615,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60075,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60400,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60610,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60915,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 60955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 61020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 61195,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 61570,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 62470,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 62770,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 62810,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63160,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63375,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63495,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63665,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 63940,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 64285,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 64295,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 64550,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 64845,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 64965,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 65390,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 65630,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 66065,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 66220,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 66620,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 67760,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 68045,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 68215,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 68450,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 68695,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 70310,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 70735,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 71100,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 71755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 71785,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 72110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 72320,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 73100,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 73535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 73755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 73834,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 74580,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 75990,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 76055,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 77020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 77125,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 77180,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 78235,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 78460,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 78490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 78535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 78690,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 78945,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 79075,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 79630,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 80100,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 80520,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 80705,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 80745,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 80910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 81025,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 81035,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 81140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 81165,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 81315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 81595,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 82115,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 82890,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 83150,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 83630,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 83765,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 83825,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 84235,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 85095,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 85565,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 85975,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 86720,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 86930,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 87015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 87110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 87140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 87445,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 87725,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 87835,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 88275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 88465,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 88615,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 89275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 89810,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 89920,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 89995,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 90480,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 90525,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 90550,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 90705,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 90755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 91265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 91275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 91325,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 91810,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 91830,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 91885,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 92110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 92395,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 93025,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 93305,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 94115,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 95130,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 95165,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 95230,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 95285,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 95535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 95635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 96280,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 96355,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 96875,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 96990,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 97415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 97610,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 98025,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 98470,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 98490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 98615,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 98840,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 99460,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 100090,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 100115,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 101140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 101380,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 101575,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 101820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 101870,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 102340,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 102490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 102495,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 103260,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 103350,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 103615,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 104680,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 105015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 105085,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 105895,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 105970,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 106335,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 106565,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 106610,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 107715,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 107845,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 107870,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 108415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 108645,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 109165,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 109210,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 109300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 109685,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 110300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 110530,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 110855,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 111010,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 111040,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 111600,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 112135,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 112225,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 112230,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 113605,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 114200,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115075,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115150,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115225,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115320,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115465,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 115910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 116395,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 116590,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 117140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 117880,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 118055,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 118775,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 119070,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 119315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 119940,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 119945,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 120100,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 120405,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 120730,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 120835,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 121035,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 121475,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 121720,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 122020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 122065,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 122110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 122185,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 122265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 123430,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 124410,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 124580,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 124910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 125210,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 125410,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 126535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 126585,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 126650,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 126865,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 126990,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 127520,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 127625,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 127950,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 128175,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 129425,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 129440,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 130000,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 130015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 130660,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 130685,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 130895,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 130910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 131075,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 131135,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 131615,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 131740,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 131820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 132590,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 133130,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 133360,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 134435,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 134580,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 134670,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 134770,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 135240,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 135595,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 135725,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 136035,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 136990,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 137070,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 137675,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 138025,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 138055,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 138175,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 138265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 138475,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 139385,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 139515,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 139850,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 140030,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 140820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 141250,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 141595,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 141705,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 141950,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 142060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 142255,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 143095,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 143280,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 143645,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 144060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 144640,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 145300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 145460,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 145535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 145880,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 146380,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 146400,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 146560,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 146910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 147290,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 147865,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 148685,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 149300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 149390,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 150085,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 150565,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 150860,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 150985,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 151110,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 151115,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 151140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 151275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 153455,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 154020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 154235,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 154260,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 154575,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 154630,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 154875,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 155255,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 156030,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 156790,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 156980,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 157075,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 157335,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 157970,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 158145,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 158160,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 158795,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 159250,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 159255,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 159270,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 159805,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 159910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 161175,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 161495,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 161525,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 161735,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 161900,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 162015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 162690,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 162800,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 163015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 163565,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 163890,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 164190,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 164765,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 165635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 165895,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 166140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 166315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 166375,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 166525,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 166925,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 167070,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 167275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 167620,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 167695,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 167860,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 168840,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 168965,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 169150,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 169180,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 170510,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 170875,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 171090,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 171820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 171900,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 172300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 172355,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 172565,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 172970,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 173010,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 173370,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 173455,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 173505,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 173760,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 174130,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 174300,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 175690,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 175795,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 176340,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 176480,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 176610,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 177105,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 177440,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 177445,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 177635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 177645,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 178490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 179920,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 180650,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 180855,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 180885,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 180980,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 181064,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 181170,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 181245,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 181490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 181820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 181895,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 182470,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 182540,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 182765,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 182815,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 183150,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 183205,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 183620,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 183775,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 184065,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 184390,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 184705,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 185090,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 185280,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 185445,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 185700,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 185875,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 186050,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 186130,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 186275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 186535,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 187940,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 188035,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 188155,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 188460,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 188530,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 189215,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 189755,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 189780,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 190165,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 190545,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 190930,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 191020,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 191225,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 191285,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 191370,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 191885,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 191965,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 192450,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 192500,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 192525,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 193350,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 193560,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 193750,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 194015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 194045,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 194490,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 194790,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 195580,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 196070,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 196150,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 196295,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 196945,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 197005,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 198475,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 198800,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 199050,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 199200,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 199620,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 200200,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 200520,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 201190,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 201380,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 202220,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 202275,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 202540,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 202935,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 202965,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 203530,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 203695,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 203795,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 204710,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 204860,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 205210,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 205555,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 205670,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 205960,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 206190,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 206610,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 206815,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 207065,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 207350,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 207410,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 207655,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 208185,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 208930,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 209385,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 210545,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 211030,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 211315,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 211335,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 211500,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 211685,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 211770,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 212435,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 212710,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 212800,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 212860,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 212930,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 213330,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 213355,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 213370,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 213445,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 213660,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 214100,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 214245,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 214445,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 214895,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 214995,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 215320,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 215785,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 215820,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 215905,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 215930,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 216180,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 216330,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 216420,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 216955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 216995,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 217045,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 217055,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 217060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 217155,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 217915,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 218415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 219390,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 219795,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 219945,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220000,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220195,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220205,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220220,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220385,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220670,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 220805,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 221230,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 221775,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 221925,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 222140,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 222520,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 222585,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 222685,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 222730,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 223265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 223435,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 223540,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 223600,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 223670,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 224635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 224655,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 224785,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 224830,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 224950,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 226680,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227135,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227255,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227345,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227420,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227710,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 227915,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 228250,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 228330,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 228685,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 228745,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 228900,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 228975,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 229555,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 229600,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 229720,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 229930,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 230955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 231360,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 231505,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 231565,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 231805,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 231955,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 232160,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 232915,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 233225,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 233265,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 233415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 233435,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 233770,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 234090,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 234335,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 234815,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235145,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235295,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235430,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235485,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235705,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 235855,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 236125,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 236445,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 236500,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 236715,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 236870,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237040,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237060,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237455,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237590,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237810,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237875,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237910,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 237985,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 238125,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 238190,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 238240,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 238635,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 239365,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 239500,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 239700,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 239835,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 240245,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 240365,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 240545,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 240595,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 240870,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 241005,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 241350,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 241850,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 242415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 243015,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 243145,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 244460,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 244785,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 245415,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 245430,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 245585,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 245615,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 245645,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 246900,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 247680,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 249045,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    },
+    {
+      "iter": 249785,
+      "kind": "AssertionError",
+      "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+    }
+  ],
   "python": "3.11.15",
-  "seed": 54324593520803841,
-  "started_utc": "2026-09-28T00:55:22Z",
+  "seed": 54324593520803843,
+  "started_utc": "2026-09-28T00:56:52Z",
   "surface": "harness_normalize_main",
-  "verdict": "CLEAN"
+  "verdict": "DIRTY"
 }

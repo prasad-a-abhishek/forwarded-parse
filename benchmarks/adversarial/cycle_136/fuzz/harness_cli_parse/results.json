@@ -1,19 +1,242 @@
 {
   "argv": [
     "--iters",
-    "100"
+    "15000",
+    "--seed",
+    "54324593520803843"
   ],
   "crashes": [],
-  "elapsed_seconds": 5.876904,
-  "ended_utc": "2026-09-28T00:55:28Z",
-  "exit_code": 0,
+  "elapsed_seconds": 850.096033,
+  "ended_utc": "2026-09-28T01:11:03Z",
+  "exit_code": 1,
   "harness_self_error": null,
-  "iters_clean": 100,
-  "iters_requested": 100,
-  "oracle_mismatches": [],
+  "iters_clean": 14956,
+  "iters_requested": 15000,
+  "oracle_mismatches": [
+    {
+      "iter": 285,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 305,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 1205,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 1315,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 1685,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 2355,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 2745,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 3295,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 3325,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 3405,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 3585,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 3875,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 4775,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 5195,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 5325,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 5365,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 5395,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 5585,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 5965,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 6165,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 6615,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 6895,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 7185,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 7245,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 7285,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 7325,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 7615,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 7725,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 7955,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 8165,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 8345,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 8475,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 9485,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 10415,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 10775,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 11575,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 11895,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 12195,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 12425,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 12655,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 12695,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 13935,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    },
+    {
+      "iter": 14105,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+    },
+    {
+      "iter": 14475,
+      "kind": "AssertionError",
+      "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+    }
+  ],
   "python": "3.11.15",
-  "seed": 54324593520803841,
-  "started_utc": "2026-09-28T00:55:22Z",
+  "seed": 54324593520803843,
+  "started_utc": "2026-09-28T00:56:52Z",
   "surface": "harness_cli_parse",
-  "verdict": "CLEAN"
+  "verdict": "DIRTY"
 }

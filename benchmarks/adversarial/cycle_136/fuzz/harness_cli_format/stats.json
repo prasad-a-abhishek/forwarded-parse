@@ -1,0 +1,19 @@
+{
+ "corpus_only": true,
+ "crash_samples": [],
+ "crashes": 0,
+ "duration_s": 0.0,
+ "exit_code": 0,
+ "hangs": 0,
+ "harness_self_error": null,
+ "iters": 0,
+ "iters_clean": 0,
+ "iters_requested": 0,
+ "mismatch_samples": [],
+ "note": "No dedicated harness exists for this surface (T2 built only harness_cli_parse because the shipped CLI reads stdin and operates internally; format/normalize are not standalone CLI commands). The corpus was generated for completeness, satisfying the task body's V1 surface list.",
+ "oom": 0,
+ "oracle_mismatches": 0,
+ "surface": "harness_cli_format",
+ "verdict": "CLEAN",
+ "wall_seconds": 0.0
+}

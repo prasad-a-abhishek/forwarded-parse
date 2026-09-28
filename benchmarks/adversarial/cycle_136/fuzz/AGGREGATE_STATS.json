@@ -1,0 +1,176 @@
+{
+ "crash_count_total": 0,
+ "cycle_id": 136,
+ "findings_summary": {
+  "library_bugs": [
+   {
+    "adversary_card": "t_c582eac9",
+    "fix_direction": "Parser should drop elements that have no recognized keys (for/by/host/proto) per RFC 7239 \u00a74's extension-rule principle (downstream consumers MUST NOT reject on unknown names; symmetrically, downstream consumers see only known keys).",
+    "id": "F-001",
+    "instances": 1620,
+    "root_cause": "parse(s) returns an element with for_=[] and by/host/proto=None for inputs that contain only unknown forward-pair names (e.g. 'foo=bar'). format() emits '' for such an element (no parts to join). Re-parsing '' produces Forwarded(elements=()) \u2014 an empty list \u2014 breaking AC7's round-trip idempotence property.",
+    "severity": "HIGH",
+    "surfaces": [
+     "harness_format_main",
+     "harness_normalize_main"
+    ],
+    "title": "Idempotence violation: element with no recognized keys drops on round-trip",
+    "trigger_inputs": [
+     "foo=bar",
+     "=value",
+     "custom=value",
+     "for=a;unknown=x"
+    ]
+   }
+  ],
+  "library_verified_clean_at_scale": [
+   {
+    "iters": 250000,
+    "surface": "harness_parse_main",
+    "verdict": "CLEAN"
+   },
+   {
+    "iters": 250000,
+    "surface": "harness_type_errors",
+    "verdict": "CLEAN"
+   },
+   {
+    "iters": 250000,
+    "surface": "harness_obfuscated",
+    "verdict": "CLEAN"
+   }
+  ],
+  "oracle_harness_bugs": [
+   {
+    "adversary_card": "t_c582eac9",
+    "fix_direction": "Either (a) implement full escape resolution in the oracle, or (b) loosen the harness assertion to only compare on UNQUOTED inputs (treating the oracle as a sanity check, not strict).",
+    "id": "F-002",
+    "instances": 1709,
+    "root_cause": "_oracle_extract_for_values strips surrounding quotes but does NOT resolve RFC 7230 \u00a73.2.6 escape pairs (\\\\\" \u2192 \", \\\\\\\\ \u2192 \\). This causes disagreement with the real parser on quoted values containing backslashes/quotes. Per harness docstring, the oracle is 'intentionally naive' for sanity, but at corpus scale it surfaces as a real 'mismatch' noise floor that masks real differences.",
+    "severity": "INFO",
+    "surfaces": [
+     "harness_cross_cycle"
+    ],
+    "title": "Cross-cycle regex oracle doesn't resolve quoted-string backslash escapes"
+   }
+  ],
+  "random_generator_harness_bugs": [
+   {
+    "adversary_card": "t_c582eac9",
+    "fix_direction": "Either reject bare_backslash as the last character, or append one more 'safe' character at the end. The bug is in the harness, not the library \u2014 the parser is correctly rejecting malformed input.",
+    "id": "F-003",
+    "instances": 1843,
+    "root_cause": "_harness_common.random_quoted_value allows emitting a 'bare_backslash' (\\) as the LAST character of a generated body. When wrapped in '\"...\"', the closing quote is preceded by an unpaired \\, which the parser correctly flags as 'unterminated quoted-string' per RFC 7230 \u00a73.2.6. The harness docstring claims the body is 'always well-formed' but that invariant is not enforced for the trailing character.",
+    "severity": "INFO",
+    "surfaces": [
+     "harness_quote_handling"
+    ],
+    "title": "random_quoted_value() may emit bodies ending in bare backslash"
+   },
+   {
+    "adversary_card": "t_c582eac9",
+    "fix_direction": "Fixed by F-001's remediation.",
+    "id": "F-004",
+    "instances": 44,
+    "root_cause": "CLI's contract is: exit 0 with non-empty input must produce non-empty stdout. For 'foo=bar' (unknown-key element), parse() returns a Forwarded with an element whose serialized form is '' (after format()). The CLI then writes nothing (line 84: if out: writes), producing empty stdout. The harness asserts 'non-empty stdout on exit 0' which fails. Root cause is the same library bug as F-001 \u2014 once the parser drops elements with no recognized keys, format/CLI behavior is consistent.",
+    "severity": "HIGH (linked to F-001)",
+    "surfaces": [
+     "harness_cli_parse"
+    ],
+    "title": "CLI emits empty stdout for inputs that produce empty formatted output"
+   }
+  ]
+ },
+ "hang_count_total": 0,
+ "iters_total_clean": 1759784,
+ "iters_total_requested": 1765000,
+ "oom_count_total": 0,
+ "oracle_mismatches_total": 5216,
+ "phase": "adversary_t3_corpus_run",
+ "seed": 54324593520803843,
+ "started_wall_seconds": 850.135,
+ "surfaces": {
+  "harness_cli_parse": {
+   "crashes": 0,
+   "duration_s": 850.096,
+   "exit_code": 1,
+   "iters_clean": 14956,
+   "iters_requested": 15000,
+   "oracle_mismatches": 44,
+   "verdict": "DIRTY",
+   "wall_seconds": 850.134
+  },
+  "harness_cross_cycle": {
+   "crashes": 0,
+   "duration_s": 104.324,
+   "exit_code": 1,
+   "iters_clean": 248291,
+   "iters_requested": 250000,
+   "oracle_mismatches": 1709,
+   "verdict": "DIRTY",
+   "wall_seconds": 104.366
+  },
+  "harness_format_main": {
+   "crashes": 0,
+   "duration_s": 124.616,
+   "exit_code": 1,
+   "iters_clean": 249190,
+   "iters_requested": 250000,
+   "oracle_mismatches": 810,
+   "verdict": "DIRTY",
+   "wall_seconds": 124.661
+  },
+  "harness_normalize_main": {
+   "crashes": 0,
+   "duration_s": 125.069,
+   "exit_code": 1,
+   "iters_clean": 249190,
+   "iters_requested": 250000,
+   "oracle_mismatches": 810,
+   "verdict": "DIRTY",
+   "wall_seconds": 125.113
+  },
+  "harness_obfuscated": {
+   "crashes": 0,
+   "duration_s": 13.82,
+   "exit_code": 0,
+   "iters_clean": 250000,
+   "iters_requested": 250000,
+   "oracle_mismatches": 0,
+   "verdict": "CLEAN",
+   "wall_seconds": 13.848
+  },
+  "harness_parse_main": {
+   "crashes": 0,
+   "duration_s": 126.227,
+   "exit_code": 0,
+   "iters_clean": 250000,
+   "iters_requested": 250000,
+   "oracle_mismatches": 0,
+   "verdict": "CLEAN",
+   "wall_seconds": 126.274
+  },
+  "harness_quote_handling": {
+   "crashes": 0,
+   "duration_s": 12.207,
+   "exit_code": 1,
+   "iters_clean": 248157,
+   "iters_requested": 250000,
+   "oracle_mismatches": 1843,
+   "verdict": "DIRTY",
+   "wall_seconds": 12.24
+  },
+  "harness_type_errors": {
+   "crashes": 0,
+   "duration_s": 0.287,
+   "exit_code": 0,
+   "iters_clean": 250000,
+   "iters_requested": 250000,
+   "oracle_mismatches": 0,
+   "verdict": "CLEAN",
+   "wall_seconds": 0.315
+  }
+ },
+ "surfaces_total": 8,
+ "verdict": "DIRTY"
+}

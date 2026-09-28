@@ -1,0 +1,43 @@
+{
+ "crash_samples": [],
+ "crashes": 0,
+ "duration_s": 850.096033,
+ "exit_code": 1,
+ "hangs": 0,
+ "harness_self_error": null,
+ "iters": 14956,
+ "iters_clean": 14956,
+ "iters_requested": 15000,
+ "mismatch_samples": [
+  {
+   "iter": 285,
+   "kind": "AssertionError",
+   "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+  },
+  {
+   "iter": 305,
+   "kind": "AssertionError",
+   "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+  },
+  {
+   "iter": 1205,
+   "kind": "AssertionError",
+   "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+  },
+  {
+   "iter": 1315,
+   "kind": "AssertionError",
+   "msg": "exit 0 with non-empty input but empty stdout: input=',\\t,'"
+  },
+  {
+   "iter": 1685,
+   "kind": "AssertionError",
+   "msg": "exit 0 with non-empty input but empty stdout: input='foo=bar'"
+  }
+ ],
+ "oom": 0,
+ "oracle_mismatches": 44,
+ "surface": "harness_cli_parse",
+ "verdict": "DIRTY",
+ "wall_seconds": 850.134
+}
