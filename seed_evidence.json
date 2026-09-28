@@ -1,0 +1,65 @@
+{
+  "repo": "forwarded-parse",
+  "concept": "RFC 7239 Forwarded HTTP header parser",
+  "keywords": ["rfc7239"],
+  "spec_path": "/root/projects/forwarded-parse/SPEC.md",
+  "check_existing": {
+    "script": "/root/.hermes/repo_factory/scripts/check_existing.py",
+    "command": "python3 /root/.hermes/repo_factory/scripts/check_existing.py --name forwarded-parse --concept 'RFC 7239 Forwarded HTTP header parser' --keywords 'rfc7239'",
+    "stdout_excerpt": [
+      "============================================================",
+      "NOVELTY & NON-EXISTENCE AUDIT: forwarded-parse (RFC 7239 Forwarded HTTP header parser)",
+      "============================================================",
+      "1. Python Stdlib Check:   [PASS] No Python standard library collision.",
+      "2. Local Repo Check:       [PASS] No local project collision.",
+      "3. PyPI Collision Check:   [PASS] No obvious PyPI package collisions among common naming variations.",
+      "4. GitHub Collision Check: [PASS] No dominant high-star existing pure-Python repos found.",
+      "------------------------------------------------------------",
+      "FINAL VERDICT: APPROVED",
+      "============================================================"
+    ],
+    "verdict_last_line": "FINAL VERDICT: APPROVED",
+    "captured_at_utc": "2026-09-28T00:03:00Z",
+    "pre_scaffold_run": true
+  },
+  "primary_sources": [
+    {
+      "url": "https://datatracker.ietf.org/doc/html/rfc7239",
+      "label": "IETF datatracker — RFC 7239 HTML",
+      "http_status": 200,
+      "curl_command": "curl -sI -o /dev/null -w '%{http_code}' https://datatracker.ietf.org/doc/html/rfc7239",
+      "captured_at_utc": "2026-09-28T00:03:00Z"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7239.txt",
+      "label": "RFC editor — RFC 7239 plain text",
+      "http_status": 200,
+      "curl_command": "curl -sI -o /dev/null -w '%{http_code}' https://www.rfc-editor.org/rfc/rfc7239.txt",
+      "captured_at_utc": "2026-09-28T00:03:00Z"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/X-Forwarded-For",
+      "label": "Wikipedia — X-Forwarded-For predecessor and RFC 7239 migration",
+      "http_status": 200,
+      "curl_command": "curl -sI -o /dev/null -w '%{http_code}' https://en.wikipedia.org/wiki/X-Forwarded-For",
+      "captured_at_utc": "2026-09-28T00:03:00Z"
+    }
+  ],
+  "local_repo_check": {
+    "command": "gh repo list prasad-a-abhishek --limit 200 --json name",
+    "found_forwarded_parse": false,
+    "scanned_count": 115
+  },
+  "non_goals_locked": [
+    "no X-Forwarded-For parser",
+    "no http.client wrapper",
+    "no email.message wrapper",
+    "no LLM-powered features",
+    "no PyPI release at v0.1.0 (git+https install)"
+  ],
+  "scope_budget": {
+    "implementation_loc_max": 400,
+    "dependencies": []
+  },
+  "accepts_locked": 12
+}

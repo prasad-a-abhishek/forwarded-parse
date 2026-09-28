@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forwarded-parse"
+version = "0.1.0"
+description = "Zero-dependency RFC 7239 HTTP Forwarded header parser, serializer, and normalizer"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "forwarded-parse authors"},
+]
+keywords = [
+    "forwarded",
+    "http",
+    "rfc-7239",
+    "header",
+    "parser",
+    "proxy",
+    "x-forwarded-for",
+    "obs-fold",
+    "obfuscated-token",
+    "7239",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/prasad-a-abhishek/forwarded-parse"
+Repository = "https://github.com/prasad-a-abhishek/forwarded-parse"
+
+[project.scripts]
+forwarded-parse = "forwarded_parse.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+forwarded_parse = ["py.typed"]

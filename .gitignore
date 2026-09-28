@@ -1,0 +1,19 @@
+# Byte-compiled / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.venv/
+venv/
+env/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
