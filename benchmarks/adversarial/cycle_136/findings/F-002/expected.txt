@@ -1,0 +1,5 @@
+Expected (parser and oracle agree on RFC 7230 §3.2.6 escape semantics):
+  INPUT:        for="a\"b"
+  parser for[]: ['a"b']
+  oracle for[]: ['a"b']           # should resolve \" → "
+  agree:        True

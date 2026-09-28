@@ -1,0 +1,20 @@
+No crash / no stack trace — this is a logic bug, not a fault.
+
+Failure path during fuzzing:
+  tests/harness_format_main.py: assertion
+    first = format(parse(INPUT))         # INPUT='foo=bar'
+    second = format(parse(first))        # first=''  -> parse('') = Forwarded(elements=())
+    assert first == second
+  -> AssertionError: idempotence violation:
+     first={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]}
+     !=
+     second={'elements': []}
+     (input='foo=bar', formatted='')
+
+  tests/harness_normalize_main.py: assertion
+    orig = parse('foo=bar')
+    norm = normalize(orig)
+    assert orig.to_dict() == norm.to_dict()
+  -> AssertionError: normalize added/removed elements unexpectedly:
+     orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]}
+     norm={'elements': []}

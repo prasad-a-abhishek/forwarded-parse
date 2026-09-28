@@ -1,0 +1,17 @@
+No crash / no stack trace — logic bug, not a fault.
+
+Failure path during fuzzing (tests/harness_cli_parse.py):
+  AssertionError: exit 0 with non-empty input but empty stdout: input='foo=bar'
+
+The CLI subprocess returned exit_code=0 and stdout='' for INPUT='foo=bar'.
+The harness assertion `assert stdout or exit_code != 0` failed.
+
+The call path is:
+  cli.py:main()
+    -> parse('foo=bar')           # returns Forwarded(elements=(<empty>,))
+    -> format(parsed)              # returns ''
+    -> if out:                    # False → falls through
+    -> return 0                   # exit 0 with empty stdout
+
+Triggering the bug is exactly the same condition as F-001 — fixing the
+parser (F-001) eliminates F-004.

@@ -1,0 +1,8 @@
+Actual for INPUT='foo=bar':
+  exit code: 0
+  stdout:    ''
+  stderr:    ''
+
+The CLI silently swallowed the input — parse succeeded, format returned '',
+the `if out:` guard (cli.py:84) suppressed the write, and the caller sees
+exit 0 with no signal that the input was processed or dropped.

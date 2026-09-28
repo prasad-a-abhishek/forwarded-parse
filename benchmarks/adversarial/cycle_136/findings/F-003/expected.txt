@@ -1,0 +1,9 @@
+Expected (RFC 7230 §3.2.6 compliance):
+  The harness generator's bodies should ALWAYS be well-formed quoted
+  strings. So if the body is "abc\", the generator should NOT emit it —
+  it should either append a safe char or strip the trailing backslash.
+  After the fix, the harness should generate no input like `"abc\"`.
+
+  When the parser DOES see a malformed input (e.g. one synthesised by an
+  adversary directly), it SHOULD raise ForwardedParseError with a
+  descriptive message — which is what the parser actually does.

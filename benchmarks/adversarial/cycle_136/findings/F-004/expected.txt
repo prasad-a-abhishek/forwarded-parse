@@ -1,0 +1,12 @@
+Contract (cli.py:54-65, docstring §Exit codes):
+  exit 0 + non-empty input -> non-empty stdout
+
+Expected for INPUT='foo=bar':
+  exit code: 0
+  stdout:    'foo=bar\n'    (or 'for=...\n' or some non-empty canonical form)
+  stderr:    ''
+
+Behaviour the CLI SHOULD have: emit SOMETHING on stdout when exit is 0
+and the input was non-empty — even if the parser dropped all pairs, the
+caller should see at least a status marker, an error, or the canonical
+empty form.

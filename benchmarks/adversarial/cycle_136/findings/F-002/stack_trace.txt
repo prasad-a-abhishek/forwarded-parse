@@ -1,0 +1,13 @@
+No crash / no stack trace — bug is in the harness oracle, not the library.
+
+Failure path during fuzzing (tests/harness_cross_cycle.py):
+  AssertionError: oracle disagrees with parser on input 'for="a\"b"'
+    oracle_for = ['a\\"b']
+    parser_for = ['a"b']
+
+The harness's assertion `assert oracle_for == parser_for` failed for any
+input containing a quoted `for=` value with an escape sequence. The bug is
+in `_oracle_extract_for_values` (line ~50 in
+ benchmarks/adversarial/cycle_136/harness_cross_cycle.py), which performs
+ `v = v[1:-1]` after a `startswith('"') / endswith('"')` check, with no
+intermediate escape-resolution pass.

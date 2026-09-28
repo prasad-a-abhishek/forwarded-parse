@@ -1,0 +1,8 @@
+Actual:
+  The harness's `random_quoted_value()` DOES emit bodies ending in bare
+  backslash, which when wrapped become malformed quoted-strings. The
+  parser correctly rejects them — but the harness counts these rejections
+  as "mismatches" / "errors" against the library, when they are actually
+  the harness's own fault.
+
+  1843 such events at corpus scale (harness_quote_handling surface).
