@@ -1,0 +1,13 @@
+No crash — the parser correctly raises ForwardedParseError on malformed input.
+The "stack trace" here is the parser's REJECTION (intended behaviour):
+
+  ForwardedParseError: malformed forwarded-pair: '"abc\\"' (expected token=value)
+  (at position 0)
+
+  raised from:
+    src/forwarded_parse/_parser.py:277   _parse_pair (eq <= 0 → empty name)
+
+The harness counts this as a "mismatch" against the library; the bug is
+that the harness generator emits such inputs in the first place. The
+parser is correct — RFC 7230 §3.2.6 forbids a bare trailing backslash in a
+quoted-string.

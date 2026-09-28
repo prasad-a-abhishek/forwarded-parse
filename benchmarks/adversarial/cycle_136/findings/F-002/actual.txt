@@ -1,0 +1,7 @@
+Actual (oracle naively strips quotes without resolving escapes):
+  INPUT:        for="a\"b"
+  parser for[]: ['a"b']
+  oracle for[]: ['a\\"b']
+  agree:        False             # naive regex leaves backslash literal
+
+Harness flag: oracle mismatch (1709 instances at corpus scale).

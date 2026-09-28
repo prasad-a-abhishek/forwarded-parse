@@ -1,0 +1,43 @@
+{
+ "crash_samples": [],
+ "crashes": 0,
+ "duration_s": 104.324421,
+ "exit_code": 1,
+ "hangs": 0,
+ "harness_self_error": null,
+ "iters": 248291,
+ "iters_clean": 248291,
+ "iters_requested": 250000,
+ "mismatch_samples": [
+  {
+   "iter": 30,
+   "kind": "AssertionError",
+   "msg": "oracle mismatch: input='for=\"Hello\\\\\"World\"' parsed=['Hello\"World'] oracle=['Hello\\\\\"World']"
+  },
+  {
+   "iter": 270,
+   "kind": "AssertionError",
+   "msg": "oracle mismatch: input='for=\"with\\\\\\\\backslash\"' parsed=['with\\\\backslash'] oracle=['with\\\\\\\\backslash']"
+  },
+  {
+   "iter": 300,
+   "kind": "AssertionError",
+   "msg": "oracle mismatch: input='for=\"with\\\\\\\\backslash\"' parsed=['with\\\\backslash'] oracle=['with\\\\\\\\backslash']"
+  },
+  {
+   "iter": 370,
+   "kind": "AssertionError",
+   "msg": "oracle mismatch: input='for=\"with\\\\\\\\backslash\"' parsed=['with\\\\backslash'] oracle=['with\\\\\\\\backslash']"
+  },
+  {
+   "iter": 390,
+   "kind": "AssertionError",
+   "msg": "oracle mismatch: input='for=\"Hello\\\\\"World\"' parsed=['Hello\"World'] oracle=['Hello\\\\\"World']"
+  }
+ ],
+ "oom": 0,
+ "oracle_mismatches": 1709,
+ "surface": "harness_cross_cycle",
+ "verdict": "DIRTY",
+ "wall_seconds": 104.366
+}

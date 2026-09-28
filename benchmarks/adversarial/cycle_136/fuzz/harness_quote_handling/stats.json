@@ -1,0 +1,43 @@
+{
+ "crash_samples": [],
+ "crashes": 0,
+ "duration_s": 12.20671,
+ "exit_code": 1,
+ "hangs": 0,
+ "harness_self_error": null,
+ "iters": 248157,
+ "iters_clean": 248157,
+ "iters_requested": 250000,
+ "mismatch_samples": [
+  {
+   "iter": 486,
+   "kind": "AssertionError",
+   "msg": "unexpected parse failure on well-formed body: 'for=192.0.2.43;by=\"-\\\\5\\\\3<8E.@n9]c\\\\\\\\,k^Ov\\\\\"\\\\>\\\\GJ;\\\\mO}\\\\X(\\\\\\\\\\\\\\\\\"x2\\\\)u,\\\\\"': unterminated quoted-string (at position 0)"
+  },
+  {
+   "iter": 892,
+   "kind": "AssertionError",
+   "msg": "unexpected parse failure on well-formed body: 'for=192.0.2.43;host=\"kiL\\\\\\\\<CR@3czTd3\\\\\\\\\\\\{A/%}\\\\\"I<oV\\\\\\\\\\\\\"Y:\\\\\"Oql\\\\\\\\\\\\\\\\\"w\\\\&X;x\\\\\\\\No\\\\\\\\ 9\\\\\\\\01ANDQ%;\\\\mu\\\\\"\\\\\".\"': unterminated quoted-string (at position 0)"
+  },
+  {
+   "iter": 1011,
+   "kind": "AssertionError",
+   "msg": "unexpected parse failure on well-formed body: 'for=192.0.2.43;by=\"\\\\c1\\\\\\\\\\\\\\\\\"c40C(Wd\\\\\\\\RlW\\\\\\\\\\\\b,F\"': unterminated quoted-string (at position 0)"
+  },
+  {
+   "iter": 1038,
+   "kind": "AssertionError",
+   "msg": "unexpected parse failure on well-formed body: 'for=192.0.2.43;by=\"xYQ4c\\\\\\\\\\\\\\\\\"\\\\62_>\\\\\\\\\\\\\\\\\\\\,\"': unterminated quoted-string (at position 0)"
+  },
+  {
+   "iter": 1207,
+   "kind": "AssertionError",
+   "msg": "unexpected parse failure on well-formed body: 'for=192.0.2.43;host=\"Y1\\\\\\\\\\\\\"2\\\\\\\\\\\\8l&\\\\\"%O<\\\\\"\\\\W\\\\\"<\\\\\"\\\\94\\\\\"#]\\\\\\\\u\\\\\"^5Pl\\\\\"nV:F\\\\\\\\\\\\X\\\\UxT\\\\\"#j-\\\\\\\\\\\\\\\\\":\\\\ew q\"': unterminated quoted-string (at position 0)"
+  }
+ ],
+ "oom": 0,
+ "oracle_mismatches": 1843,
+ "surface": "harness_quote_handling",
+ "verdict": "DIRTY",
+ "wall_seconds": 12.24
+}

@@ -1,0 +1,7 @@
+parse("foo=bar") returns Forwarded(elements=(ForwardedElement(for_=(), by=None, host=None, proto=None),))
+format(...) returns ''
+parse('') returns Forwarded(elements=())
+format(Forwarded(elements=())) returns ''
+The two strings are both '' (trivially equal), BUT the FIRST parse retained
+a non-empty Forwarded whose only representation is '' — i.e. the input was
+parsed into a phantom element that vanishes on round-trip.

@@ -1,0 +1,55 @@
+{
+ "seed_per_surface": 32,
+ "surfaces": [
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_parse_main"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_format_main"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_normalize_main"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_cli_parse"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_cli_format"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_cli_normalize"
+  },
+  {
+   "corpus_kind": "json",
+   "seed_count": 32,
+   "surface": "harness_type_errors"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_obfuscated"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_quote_handling"
+  },
+  {
+   "corpus_kind": "text",
+   "seed_count": 32,
+   "surface": "harness_cross_cycle"
+  }
+ ]
+}

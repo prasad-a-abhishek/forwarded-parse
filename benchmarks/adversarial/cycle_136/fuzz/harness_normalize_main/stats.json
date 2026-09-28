@@ -1,0 +1,43 @@
+{
+ "crash_samples": [],
+ "crashes": 0,
+ "duration_s": 125.069175,
+ "exit_code": 1,
+ "hangs": 0,
+ "harness_self_error": null,
+ "iters": 249190,
+ "iters_clean": 249190,
+ "iters_requested": 250000,
+ "mismatch_samples": [
+  {
+   "iter": 130,
+   "kind": "AssertionError",
+   "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+  },
+  {
+   "iter": 145,
+   "kind": "AssertionError",
+   "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+  },
+  {
+   "iter": 385,
+   "kind": "AssertionError",
+   "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+  },
+  {
+   "iter": 435,
+   "kind": "AssertionError",
+   "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+  },
+  {
+   "iter": 955,
+   "kind": "AssertionError",
+   "msg": "normalize added/removed elements unexpectedly: orig={'elements': [{'for': [], 'by': None, 'host': None, 'proto': None}]} norm={'elements': []}"
+  }
+ ],
+ "oom": 0,
+ "oracle_mismatches": 810,
+ "surface": "harness_normalize_main",
+ "verdict": "DIRTY",
+ "wall_seconds": 125.113
+}

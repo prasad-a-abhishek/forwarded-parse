@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "--iters",
+    "250000",
+    "--seed",
+    "54324593520803843"
+  ],
+  "crashes": [],
+  "elapsed_seconds": 13.820052,
+  "ended_utc": "2026-09-28T00:59:11Z",
+  "exit_code": 0,
+  "harness_self_error": null,
+  "iters_clean": 250000,
+  "iters_requested": 250000,
+  "oracle_mismatches": [],
+  "python": "3.11.15",
+  "seed": 54324593520803843,
+  "started_utc": "2026-09-28T00:58:58Z",
+  "surface": "harness_obfuscated",
+  "verdict": "CLEAN"
+}

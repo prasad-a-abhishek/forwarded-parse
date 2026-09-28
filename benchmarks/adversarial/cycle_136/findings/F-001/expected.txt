@@ -1,0 +1,5 @@
+IDEMPOTENT: False
+parse(INPUT): Forwarded(elements=(ForwardedElement(for_=(), by=None, host=None, proto=None),))
+format(parse(INPUT)): ''
+parse(format(parse(INPUT))): Forwarded(elements=())
+first != second (per AC7 round-trip)
