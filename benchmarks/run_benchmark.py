@@ -152,14 +152,21 @@ def _stats(samples: list[float]) -> dict[str, float]:
 
 def main() -> int:
     rows: list[dict[str, object]] = []
-    print(f"{'workload':<32} {'forwarded-parse (us)':>22} {'naive split (us)':>20} {'speedup':>10}")
+    print(f"{'workload':<32} {'forwarded-parse (us)':>22} {'naive split (us)':>20} {'ratio':>10}")
     print("-" * 90)
     for name, data, _kind in WORKLOADS:
         fp_samples = _measure(_forwarded_parse, data)
         naive_samples = _measure(_naive_split, data)
         fp_stats = _stats(fp_samples)
         naive_stats = _stats(naive_samples)
-        speedup = naive_stats["mean_us"] / fp_stats["mean_us"] if fp_stats["mean_us"] else float("inf")
+        # ``ratio`` here is naive mean / forwarded-parse mean. A value < 1
+        # means naive split is faster in absolute microseconds (which is
+        # always true — naive doesn't build a structured object, doesn't
+        # parse obs-fold, doesn't validate token chars, doesn't decode
+        # quoted-strings). The ratio is reported for transparency about
+        # absolute cost; the structural feature parity is documented in
+        # the post-table note below.
+        ratio = naive_stats["mean_us"] / fp_stats["mean_us"] if fp_stats["mean_us"] else float("inf")
         rows.append(
             {
                 "workload": name,
@@ -167,11 +174,11 @@ def main() -> int:
                 "input_bytes": len(data.encode("utf-8")),
                 "forwarded_parse": fp_stats,
                 "naive_split": naive_stats,
-                "speedup_x": round(speedup, 2),
+                "naive_over_forwarded_ratio": round(ratio, 4),
             }
         )
         print(
-            f"{name:<32} {fp_stats['mean_us']:>22.3f} {naive_stats['mean_us']:>20.3f} {speedup:>9.2f}x"
+            f"{name:<32} {fp_stats['mean_us']:>22.3f} {naive_stats['mean_us']:>20.3f} {ratio:>9.4f}x"
         )
 
     out_dir = Path(__file__).resolve().parent
@@ -193,12 +200,13 @@ def main() -> int:
     print()
     print(f"Wrote {out_dir / 'BENCHMARK.json'}")
     print()
-    print("Note: forwarded-parse is slower than naive .split(',') on the absolute")
-    print("scale, because it builds a structured ``Forwarded`` object with typed")
-    print("``ForwardedElement`` records, handles obs-fold, quoted-strings, and")
-    print("obfuscated tokens — features naive split cannot express at all. The")
-    print("speedup column above is reported for completeness; the real comparison")
-    print("is feature parity per unit work, not raw nanoseconds.")
+    print("Note: the ``ratio`` column above is ``naive mean / forwarded-parse``")
+    print("mean. Values are << 1 because naive ``str.split(',')`` does no")
+    print("structural work — no obs-fold handling, no quoted-string decoding,")
+    print("no token-character validation, no obfuscated-token preservation,")
+    print("no typed return object. forwarded-parse is slower in absolute")
+    print("microseconds by ~100-200x; the comparison is feature parity per")
+    print("unit work, not raw nanoseconds.")
     return 0
 
 
